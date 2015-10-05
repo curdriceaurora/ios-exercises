@@ -134,8 +134,8 @@ let cerealArray = ["Golden Grahams", "Cheerios", "Trix", "Cap'n Crunch OOPS! All
 // Use a closure to sort this array alphabetically
 // WORK HERE
 
+func sortAlphabetical(s1: String, _ s2: String) -> Bool {
+    return s1 < s2
+}
 
-
-func cerealSort(Array<String>) -> String
-
-
+var reversedCerealArray = cerealArray.sort(sortAlphabetical)
